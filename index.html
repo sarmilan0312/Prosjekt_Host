@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+          <h1>Trivia Spill</h1>
+          <p>Test kunnskapen din!</p>
+        </header>
+        
+        <main>
+          <div id="quiz-container" class="hidden">
+            <div id="question"></div>
+            <div id="answers"></div>
+            <button id="next-btn" class="hidden">Neste spørsmål</button>
+          </div>
     
+          <div id="start-container">
+            <a href="question.html" id="start-button">Start Spill</a>
+          </div>
+    
+          <div id="result-container" class="hidden">
+            <p id="result-message"></p>
+            <p id="score"></p>
+            <button id="restart-btn">Spill igjen</button>
+          </div>
+        </main>
+      </div>
+    
+      <script src="script.js"></script>          
 </body>
 </html>
