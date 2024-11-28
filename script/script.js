@@ -1,5 +1,5 @@
 // Correct answers array
-const correctAnswers = ["A", "A", "B", "A", "A"]; // Adjusted to match the static HTML
+const correctAnswers = ["A", "A", "B", "A", "A", "A", "A", "A", "C", "A", "A", "A", "A", "A", "A"]; // Adjusted to match the static HTML
 
 // HTML Elements
 const result = document.getElementById("result");
